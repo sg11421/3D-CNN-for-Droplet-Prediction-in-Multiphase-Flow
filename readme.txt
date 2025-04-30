@@ -1,14 +1,26 @@
-simulation: This file is the COMSOL file of our simulation.
+# Droplet Prediction in Multiphase Flow via 3D CNN
 
-data generation codes: This folder contains the MATLAB scripts for automatically generating data from the COMSOL file for both use cases
+## Repository Structure
 
-data: This folder contains all the image data that has been generated during the project along with the labels using the simulation file
+### `simulation/`
+This folder contains the COMSOL file of our simulation.
 
-model codes: This folder contains the Jupyter notebooks containing codes for extracting the generated data and training and evaluating 3D CNN models on train and test data respectively for both use cases
+### `data generation codes/`
+This folder contains the MATLAB scripts used to automatically generate data from the COMSOL file for both use cases.
 
-models: This folder contains the trained models
+### `data/`
+This folder contains all the image data generated during the project, along with the labels obtained using the simulation file.
 
-results: This folder contains the final results obtained showing actual values and values predicted from our model
+### `model codes/`
+This folder contains the Jupyter notebooks with code for extracting the generated data, training, and evaluating 3D CNN models on the train and test datasets for both use cases.
 
-plots: This folder contains all the plots created for visualising the results.
+### `models/`
+This folder contains the trained 3D CNN models.
+
+### `results/`
+This folder contains the final results, showing both the actual values and the predictions made by the model.
+
+### `plots/`
+This folder contains all the plots created for visualizing the results.
+
 
