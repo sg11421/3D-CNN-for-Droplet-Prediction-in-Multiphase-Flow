@@ -2,8 +2,8 @@
 
 ## Repository Structure
 
-### `simulation/`
-This folder contains the COMSOL file of our simulation.
+### `simulation`
+This is the COMSOL file of our simulation.
 
 ### `data generation codes/`
 This folder contains the MATLAB scripts used to automatically generate data from the COMSOL file for both use cases.
